@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+    background-color: #f7eaff; /* Color de fondo */
+    font-family: 'Bubblegum Sans', cursive;
+    overflow-x: hidden; /* Deshabilitar el desplazamiento horizontal */
+}
+
+.container {
+    background-color: #ffffff; /* Color del contenedor */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    overflow-y: auto; /* Permitir el desplazamiento vertical */
+}
+
+input[type=password], button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color: #bf17ce; /* Color del botón */
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    background-color: #d48dd1; /* Color del botón cuando está en estado de reposo */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bf17ce; /* Color del botón cuando se pasa el cursor sobre él */
+}
+
+#flower img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a4a4a; /* Color del texto */
+}
+
+#loveText {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #bf17ce; /* Color del texto "TE AMO PRINCESA🤍" */
+}

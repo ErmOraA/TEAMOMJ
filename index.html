@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página secreta para mi Princesa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <input type="password" id="passwordInput" placeholder="Ingresa la contraseña...">
+        <button onclick="checkPassword(); this.style.display='none';">Enviar</button>
+        <div id="question" class="hidden">¿Quieres ser mi copilota 🚘?</div>
+        <button id="yesButton" class="hidden" onclick="showFlower()">Sí</button>
+        <button id="noButton" class="hidden" onclick="moveNoButton()">No</button>
+        <div id="flower" class="hidden">
+            <img src="flower.jpg" alt="Flor">
+            <p id="flowerText">A mi princesa, feliz 10 meses juntos. Eres mi copilota en esta vida y en cada viaje. Gracias por estar siempre a mi lado, por compartir tus sueños conmigo y por hacerme sentir el hombre más afortunado del mundo. Eres mi luz, mi amor y mi inspiración. TE AMO con todo mi corazón. 💖</p>
+            <p id="loveText">TE AMO PRINCESA🤍</p>
+            <audio id="backgroundMusic">
+                <source src="song.ogg" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <a href="https://open.spotify.com/playlist/0VHkOMVP9llzvA8JFxRn5e?si=33f92cc95e7d47e3" target="_blank">Escucha nuestra playlist especial aquí</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
